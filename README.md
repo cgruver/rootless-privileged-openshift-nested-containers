@@ -55,6 +55,8 @@
 
 1. Create a Pod:
 
+   __Note:__ The image used in this Pod example is built from the `Containerfile` in this code repo.
+
    ```bash
    cat << EOF | oc apply -f -
    apiVersion: v1
